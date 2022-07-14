@@ -1,0 +1,9 @@
+div {
+  display: inline;
+}
+span {
+  display: block;
+  height: 100;
+  width: 200;
+  background-color: yellow;
+}
