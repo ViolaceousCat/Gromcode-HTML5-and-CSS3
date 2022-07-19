@@ -10,9 +10,7 @@ h2 {
 li {
   color: blue;
 }
-p {
-  background-color: yellow;
-}
+
 input {
   border: 3px solid red;
 }
@@ -28,13 +26,14 @@ div > p {
 input[type='text'] {
   background-color: gray;
 }
-body > div:nth-of-type(3) > p {
+body > div:nth-of-type(3) > p,
+p {
   background-color: yellow;
 }
 body > div:nth-of-type(3) > p:nth-of-type(2) {
   border: 5px solid white;
 }
-body > div:nth-of-type(3) > em {
+p > em {
   font-size: 20px;
   color: white;
 }
