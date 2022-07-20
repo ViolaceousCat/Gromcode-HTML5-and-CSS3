@@ -11,6 +11,7 @@ div {
   position: absolute;
   top: 90px;
   right: 40px;
+  background: yellow;
 }
 
 .parent {
@@ -19,22 +20,10 @@ div {
   background-color: yellowgreen;
 }
 
-.child {
-  background: yellow;
-  position: absolute;
-}
-
 .tip {
   opacity: 1;
   background-color: whitesmoke;
   padding: 0 8px;
-}
-
-.green {
-  width: 100px;
-  height: 100px;
-  background: green;
-  float: left;
 }
 
 .container {
@@ -50,6 +39,11 @@ div {
 }
 .absolute-parent {
   position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+.fixed-parent {
+  position: fixed;
   bottom: 20px;
   left: 30px;
 }
