@@ -1,25 +1,26 @@
 .rect_properties {
-  padding: 25px;
+  padding: 50px;
   border: 2px solid black;
+  box-sizing: border-box;
 }
 .rectangle1 {
   margin: 50px;
-  width: 700px;
-  height: 250px;
+  width: 1700px;
+  height: 450px;
   background-color: blue;
 }
 .rectangle2 {
-  width: 650px;
-  height: 200px;
+  width: 1600px;
+  height: 350px;
   background-color: yellow;
 }
 .rectangle3 {
-  width: 600px;
-  height: 150px;
+  width: 1500px;
+  height: 250px;
   background-color: green;
 }
 .rectangle4 {
-  width: 550px;
-  height: 100px;
-  background-color: bisque;
+  width: 1400px;
+  height: 150px;
+  background-color: pink;
 }
