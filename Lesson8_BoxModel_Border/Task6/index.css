@@ -1,6 +1,7 @@
 .rect_properties {
   padding: 50px;
   border: 2px solid black;
+  box-sizing: border-box;
 }
 .rectangle1 {
   margin: 50px;
