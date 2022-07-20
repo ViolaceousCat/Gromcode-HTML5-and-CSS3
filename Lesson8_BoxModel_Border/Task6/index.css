@@ -1,29 +1,25 @@
-.rectangle1 {
+.rect_properties {
   padding: 25px;
+  border: 2px solid black;
+}
+.rectangle1 {
   margin: 50px;
   width: 700px;
   height: 250px;
   background-color: blue;
-  border: 2px solid black;
 }
 .rectangle2 {
-  padding: 25px;
   width: 650px;
   height: 200px;
   background-color: yellow;
-  border: 2px solid black;
 }
 .rectangle3 {
-  padding: 25px;
   width: 600px;
   height: 150px;
   background-color: green;
-  border: 2px solid black;
 }
 .rectangle4 {
-  padding: 25px;
   width: 550px;
   height: 100px;
   background-color: bisque;
-  border: 2px solid black;
 }
