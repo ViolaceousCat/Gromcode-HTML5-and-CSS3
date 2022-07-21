@@ -7,6 +7,7 @@
   box-sizing: border-box;
   margin: 0;
   position: fixed;
+  display: flex;
 }
 
 .nav-item {
@@ -15,9 +16,49 @@
   display: inline-block;
   line-height: 40px;
   margin-left: 16px;
-  float: left;
 }
 main {
   background-color: beige;
   height: 5000px;
 }
+
+.head {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  margin: auto;
+  top: 50%;
+}
+.ear_left,
+.ear_right {
+  width: 40px;
+  height: 60px;
+  background-color: brown;
+  position: relative;
+}
+.ear_left {
+  bottom: 120px;
+  right: 40px;
+}
+.ear_right {
+  bottom: 60px;
+  left: 200px;
+}
+.eye_left {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: grey;
+  position: absolute;
+  top: 80px;
+  left: 40px;
+}
+.eye_right {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: grey;
+  position: absolute;
+  top: 80px;
+  right: 40px;
