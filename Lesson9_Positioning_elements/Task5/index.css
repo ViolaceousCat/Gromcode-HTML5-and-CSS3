@@ -5,12 +5,14 @@
   width: 100%;
   box-sizing: border-box;
   margin: 0;
-  padding: 10px;
   position: fixed;
 }
 .nav-item {
   display: inline-block;
   margin-left: 16px;
+  height: 40px;
+  position: relative;
+  top: 25%;
 }
 main {
   background-color: beige;
