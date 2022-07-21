@@ -15,4 +15,9 @@
   display: inline-block;
   line-height: 40px;
   margin-left: 16px;
+  float: left;
+}
+main {
+  background-color: beige;
+  height: 5000px;
 }
