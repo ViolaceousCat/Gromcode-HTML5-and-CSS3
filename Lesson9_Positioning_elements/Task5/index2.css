@@ -23,13 +23,12 @@ main {
 }
 
 .head {
-  position: absolute;
+  position: relative;
   width: 200px;
   height: 200px;
   background-color: aquamarine;
   margin: auto;
-  left: 50%;
-  top: 50%;
+  top: 3%;
   
 }
 .ear_left,
