@@ -1,0 +1,25 @@
+.articles > div {
+  height: 100px;
+  width: 150px;
+  background-color: beige;
+  margin: 16px;
+}
+
+.articles {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.cropped {
+  overflow: hidden;
+}
+
+.both-scrolls {
+  overflow: scroll;
+  cursor: all-scroll;
+}
+
+.vertical-scroll {
+  overflow: auto;
+  cursor: all-scroll;
+}
