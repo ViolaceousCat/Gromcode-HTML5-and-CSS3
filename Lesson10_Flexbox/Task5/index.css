@@ -1,3 +1,7 @@
+.articles-list {
+  display: flex;
+  flex-wrap: wrap;
+}
 header {
   display: flex;
 }
@@ -10,4 +14,5 @@ h1 {
   padding: 16px;
   background-color: bisque;
   flex-basis: 300px;
+  flex-grow: 1;
 }
