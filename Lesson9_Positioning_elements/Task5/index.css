@@ -1,30 +1,35 @@
+.header,
 .nav-list {
-  background-color: darkturquoise;
-  color: white;
   height: 40px;
   width: 100%;
+  background-color: darkturquoise;
+  color: white;
   box-sizing: border-box;
   margin: 0;
   position: fixed;
+  display: flex;
 }
+
 .nav-item {
-  display: inline-block;
-  margin-left: 16px;
   height: 40px;
-  padding-top: 10px;
-  box-sizing: border-box;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 40px;
+  margin-left: 16px;
 }
 main {
   background-color: beige;
   height: 5000px;
 }
+
 .head {
+  position: relative;
   width: 200px;
   height: 200px;
   background-color: aquamarine;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  margin: auto;
+  top: 3%;
+  
 }
 .ear_left,
 .ear_right {
@@ -58,4 +63,3 @@ main {
   position: absolute;
   top: 80px;
   right: 40px;
-}
