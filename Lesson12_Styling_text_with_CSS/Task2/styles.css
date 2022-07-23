@@ -9,6 +9,7 @@ h1 {
 }
 
 div {
+  box-sizing: border-box;
   line-height: 200px;
   background-color: coral;
   color: white;
