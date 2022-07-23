@@ -1,0 +1,10 @@
+div {
+  width: 399px;
+  height: 500px;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  margin-top: 32px;
+  text-align: center;
+  box-sizing: border-box;
+}
