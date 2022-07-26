@@ -8,4 +8,5 @@ html {
 }
 .properties-list__item {
   padding: 8px;
+  line-height: 32px;
 }
