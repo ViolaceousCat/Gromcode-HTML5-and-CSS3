@@ -1,9 +1,9 @@
 .gallery {
   display: flex;
-  box-sizing: border-box;
 }
 
 .image {
+  box-sizing: border-box;
   height: 200px;
   width: 200px;
   margin: 16px;
