@@ -1,5 +1,5 @@
 .rectangle {
-  background-color: blueviolet;
+  background-color: blueviolet !important;
 }
 
 .text::first-letter {
