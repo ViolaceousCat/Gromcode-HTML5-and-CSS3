@@ -8,4 +8,5 @@ html {
   line-height: 32px;
   padding: 8px;
   list-style-type: none;
+  box-sizing: border-box;
 }
