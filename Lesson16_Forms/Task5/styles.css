@@ -1,10 +1,9 @@
-* {
-  box-sizing: border-box;
-}
 form {
+  box-sizing: border-box;
   margin: 32px;
 }
 
 .input-type {
+  box-sizing: border-box;
   margin: 8px;
 }
