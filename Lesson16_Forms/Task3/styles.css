@@ -1,6 +1,3 @@
-body {
-  margin: 0;
-}
 input[type='checkbox'] {
   visibility: hidden;
   width: 0;
@@ -16,14 +13,12 @@ input[type='checkbox'] {
   top: 0;
   left: 0;
 }
-
 .checkbox {
-  display: flex;
+  display: block;
   position: relative;
-  padding-left: 35px;
   font-size: 24px;
-  left: 0;
   margin: 16px;
+  padding-left: 35px;
 }
 
 .checkbox input:checked + .checkmark {
