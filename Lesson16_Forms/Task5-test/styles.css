@@ -3,6 +3,9 @@ form {
 }
 
 .input-type {
-  box-sizing: border-box;
+  margin: 8px;
+}
+
+.languages {
   margin: 8px;
 }
