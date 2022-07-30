@@ -1,19 +1,24 @@
 form {
+  box-sizing: border-box;
   margin: 32px;
 }
 
 input {
+  box-sizing: border-box;
   margin: 8px;
 }
 
 textarea {
+  box-sizing: border-box;
   margin: 8px;
 }
 
 select {
+  box-sizing: border-box;
   margin: 8px;
 }
 
 button {
+  box-sizing: border-box;
   margin: 8px;
 }
