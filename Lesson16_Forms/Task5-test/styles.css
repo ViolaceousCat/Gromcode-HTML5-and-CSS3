@@ -7,6 +7,6 @@ form {
   margin: 8px;
 }
 
-.languages {
+input[type='radio'] {
   margin: 8px;
 }
