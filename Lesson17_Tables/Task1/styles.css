@@ -1,0 +1,18 @@
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: right;
+}
+
+td,
+th {
+  padding: 4px;
+}
+
+table {
+  width: 500px;
+  box-sizing: border-box;
+  margin: 32px;
+}
