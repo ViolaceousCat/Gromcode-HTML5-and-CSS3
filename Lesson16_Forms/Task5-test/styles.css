@@ -2,19 +2,7 @@ form {
   margin: 32px;
 }
 
-input {
+.input-type {
   box-sizing: border-box;
-  margin: 8px;
-}
-
-textarea {
-  margin: 8px;
-}
-
-select {
-  margin: 8px;
-}
-
-button {
   margin: 8px;
 }
