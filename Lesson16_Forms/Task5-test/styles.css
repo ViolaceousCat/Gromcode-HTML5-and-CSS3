@@ -1,5 +1,6 @@
 form {
   margin: 32px;
+  box-sizing: border-box;
 }
 
 .input-type {
