@@ -3,6 +3,7 @@ form {
 }
 
 input {
+  box-sizing: border-box;
   margin: 8px;
 }
 
