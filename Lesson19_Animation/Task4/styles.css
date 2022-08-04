@@ -19,4 +19,16 @@ body {
   border-radius: 10px;
   background-color: #ff7f50;
   box-sizing: border-box;
+  animation: ease 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes ease {
+  from {
+    top: 100px;
+  }
+
+  to {
+    top: calc(50vh - 50px);
+  }
 }
