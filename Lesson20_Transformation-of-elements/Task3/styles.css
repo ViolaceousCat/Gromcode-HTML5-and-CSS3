@@ -5,13 +5,13 @@
 
 .spinner {
   margin: auto;
+  font-family: monospace;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 .spinner-text {
   animation: blinking 2s linear infinite;
-  font-family: monospace;
-  font-size: 16px;
-  text-transform: uppercase;
 }
 
 .circle {
