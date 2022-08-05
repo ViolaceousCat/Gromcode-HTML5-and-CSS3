@@ -1,0 +1,43 @@
+.navigation {
+  flex: 1;
+  background-color: #ff7f50;
+}
+
+.products {
+  flex: 1;
+  background-color: #006400;
+}
+
+.news {
+  background-color: #0ff;
+  flex: 1;
+}
+
+.navigation,
+.news,
+.products {
+  height: 200px;
+  display: flex;
+}
+
+.block-name {
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+  margin: auto;
+}
+
+@media screen and (min-width: 600px) {
+  .section {
+    display: flex;
+    flex: 2;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .main {
+    display: flex;
+  }
+}
