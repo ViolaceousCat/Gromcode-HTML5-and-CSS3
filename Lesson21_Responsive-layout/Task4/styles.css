@@ -25,7 +25,6 @@ body {
 .navigation {
   padding: 0.5em;
   width: 20%;
-  box-sizing: border-box;
 }
 
 .nav-list {
@@ -34,7 +33,6 @@ body {
 }
 
 .nav-list-item {
-  box-sizing: border-box;
   background-color: #808080;
   line-height: 2em;
   color: #fff;
@@ -47,7 +45,6 @@ body {
 .nav-list-link {
   text-decoration: none;
   color: #fff;
-
   margin: 0 0.5em;
 }
 
@@ -55,7 +52,6 @@ body {
   padding: 0.5em;
   width: 60%;
   font-size: 1.25em;
-  box-sizing: border-box;
 }
 
 .units-list {
@@ -76,7 +72,6 @@ body {
 .news {
   padding: 0.5em;
   width: 20%;
-  box-sizing: border-box;
 }
 
 .footer {
