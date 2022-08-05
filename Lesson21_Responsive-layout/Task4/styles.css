@@ -34,6 +34,7 @@ body {
 }
 
 .nav-list-item {
+  box-sizing: border-box;
   background-color: #808080;
   line-height: 2em;
   color: #fff;
