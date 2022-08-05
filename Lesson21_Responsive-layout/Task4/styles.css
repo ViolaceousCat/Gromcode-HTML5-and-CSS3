@@ -23,6 +23,7 @@ body {
 }
 
 .navigation {
+  box-sizing: border-box;
   padding: 0.5em;
   width: 20%;
 }
@@ -49,6 +50,7 @@ body {
 }
 
 .section {
+  box-sizing: border-box;
   padding: 0.5em;
   width: 60%;
   font-size: 1.25em;
@@ -70,6 +72,7 @@ body {
   text-align: center;
 }
 .news {
+  box-sizing: border-box;
   padding: 0.5em;
   width: 20%;
 }
