@@ -35,9 +35,18 @@ body {
 
 .nav-list-item {
   background-color: #808080;
-  color: #fff;
   line-height: 2em;
+  color: #fff;
   margin-bottom: 0.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.nav-list-link {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 0.5em;
 }
 
 .section {
