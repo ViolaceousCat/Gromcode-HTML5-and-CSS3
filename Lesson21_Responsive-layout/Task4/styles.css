@@ -47,7 +47,8 @@ body {
 .nav-list-link {
   text-decoration: none;
   color: #fff;
-  margin-left: 0.5em;
+  width: 100%;
+  margin: 0 0.5em;
 }
 
 .section {
@@ -83,5 +84,4 @@ body {
   background-color: #e5e5e5;
   padding: 0.5em;
   justify-content: center;
-  box-sizing: border-box;
 }
