@@ -19,10 +19,6 @@ html {
   justify-content: center;
 }
 
-body {
-  height: 100vh;
-}
-
 .navigation {
   box-sizing: border-box;
   padding: 0.5em;
@@ -78,6 +74,15 @@ body {
 img {
   max-width: 100%;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main {
+  flex-grow: 1;
 }
 
 @media screen and (min-width: 600px) {
