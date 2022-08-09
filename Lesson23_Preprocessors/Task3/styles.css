@@ -9,6 +9,7 @@
   margin: 0 0 0 3em;
   cursor: pointer;
   display: flex;
+  text-transform: uppercase;
 }
 .menu__item {
   padding: 0 8px;
