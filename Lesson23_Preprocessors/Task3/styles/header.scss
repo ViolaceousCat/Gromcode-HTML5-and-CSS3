@@ -1,0 +1,52 @@
+.header {
+  background-color: green;
+  height: 3em;
+  display: flex;
+  align-items: center;
+}
+.menu {
+  margin: 0 0 0 3em;
+  cursor: pointer;
+  display: flex;
+
+  &__item {
+    padding: 0 8px;
+    list-style-type: none;
+    position: relative;
+    color: #fff;
+
+    &:hover {
+      background-color: #9acd32;
+    }
+    &_active {
+      color: #ff0;
+
+      &:hover {
+        .submenu {
+          display: block;
+        }
+      }
+    }
+
+    .submenu {
+      margin: 0;
+      padding: 0;
+      background-color: #ff7f50;
+      box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+      color: #fff;
+      min-width: 120px;
+      list-style-type: none;
+      z-index: 1;
+      position: absolute;
+      display: none;
+
+      &__item {
+        padding: 0 8px;
+
+        &:hover {
+          color: #000;
+        }
+      }
+    }
+  }
+}
