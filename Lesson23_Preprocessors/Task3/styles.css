@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+.header {
+  height: 3em;
+  background-color: green;
+  display: flex;
+}
+.menu {
+  height: 3em;
+  display: flex;
+  margin: 0;
+  list-style-type: none;
+}
+.menu__item {
+  margin: auto;
+}
+
+.menu__item-text {
+  position: relative;
+}
+
+.submenu {
+  list-style-type: none;
+  z-index: 1;
+  position: absolute;
+  background-color: #ff7f50;
+  min-width: 120px;
+}
+/*# sourceMappingURL=styles.css.map */

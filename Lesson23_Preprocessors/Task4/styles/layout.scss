@@ -1,0 +1,14 @@
+$sm: 600px;
+$stantart: 900px;
+
+@mixin small_screen {
+  @media screen and (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin normal_screen {
+  @media screen and (min-width: $stantart) {
+    @content;
+  }
+}

@@ -1,0 +1,40 @@
+.main .section .navigation {
+  flex: 1;
+  background-color: #ff7f50;
+  height: 200px;
+  display: flex;
+}
+.main .section .products {
+  flex: 1;
+  background-color: #006400;
+  height: 200px;
+  display: flex;
+}
+@media screen and (min-width: 600px) {
+  .main .section {
+    display: flex;
+    flex: 2;
+  }
+}
+.main .news {
+  background-color: #0ff;
+  flex: 1;
+  height: 200px;
+  display: flex;
+}
+@media screen and (min-width: 900px) {
+  .main {
+    display: flex;
+  }
+}
+
+.block-name {
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+  margin: auto;
+}
+
+/*# sourceMappingURL=styles.css.map */
