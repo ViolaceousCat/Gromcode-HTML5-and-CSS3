@@ -1,26 +1,29 @@
 .header {
   background-color: green;
-  height: 3em;
-  display: flex;
-  align-items: center;
 }
 .menu {
   margin: 0 0 0 3em;
+  height: 3em;
   cursor: pointer;
   display: flex;
   text-transform: uppercase;
+  position: relative;
 
   &__item {
     padding: 0 8px;
     list-style-type: none;
-    position: relative;
     color: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
 
     &:hover {
       background-color: #9acd32;
     }
     &_active {
       color: #ff0;
+      flex-direction: column;
+      justify-content: center;
 
       &:hover {
         .submenu {
@@ -37,8 +40,10 @@
       color: #fff;
       min-width: 120px;
       list-style-type: none;
-      z-index: 1;
       position: absolute;
+      top: 48px;
+      z-index: 1;
+
       display: none;
 
       &__item {

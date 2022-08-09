@@ -1,27 +1,30 @@
 .header {
   background-color: green;
-  height: 3em;
-  display: flex;
-  align-items: center;
 }
 
 .menu {
   margin: 0 0 0 3em;
+  height: 3em;
   cursor: pointer;
   display: flex;
   text-transform: uppercase;
+  position: relative;
 }
 .menu__item {
   padding: 0 8px;
   list-style-type: none;
-  position: relative;
   color: #fff;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 .menu__item:hover {
   background-color: #9acd32;
 }
 .menu__item_active {
   color: #ff0;
+  flex-direction: column;
+  justify-content: center;
 }
 .menu__item_active:hover .submenu {
   display: block;
@@ -34,8 +37,9 @@
   color: #fff;
   min-width: 120px;
   list-style-type: none;
-  z-index: 1;
   position: absolute;
+  top: 48px;
+  z-index: 1;
   display: none;
 }
 .menu__item .submenu__item {
