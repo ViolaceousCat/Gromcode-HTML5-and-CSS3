@@ -11,3 +11,9 @@
 .customers_logo {
   filter: brightness(0);
 }
+
+@media screen and (max-width: 1399px) {
+  .customers {
+    display: none;
+  }
+}
