@@ -90,3 +90,9 @@
   position: absolute;
   right: 0;
 }
+
+@media screen and (max-width: 1399px) {
+  .features {
+    display: none;
+  }
+}

@@ -107,3 +107,9 @@
   line-height: 22px;
   opacity: 0.6;
 }
+
+@media screen and (max-width: 1399px) {
+  .inbox {
+    display: none;
+  }
+}
