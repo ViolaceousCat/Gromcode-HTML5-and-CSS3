@@ -69,7 +69,7 @@
   font-weight: 700;
 }
 
-.description {
+.logo_description {
   display: none;
 }
 
@@ -107,17 +107,17 @@
     width: 273px;
   }
 
-  .description {
+  .logo_description {
     font-size: 18px;
     line-height: 25px;
     color: #2b292d;
     opacity: 0.6;
+    display: block;
   }
 
   .logo_image {
     width: 60px;
     height: 60px;
-    margin-right: 15px;
   }
 
   .header_button {

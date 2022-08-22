@@ -62,6 +62,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 200px;
   margin: 19px 21px 19px 20px;
 }
 
@@ -153,6 +154,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     margin: 0;
+    width: auto;
   }
 
   .hiring_vacancy_block_name {
