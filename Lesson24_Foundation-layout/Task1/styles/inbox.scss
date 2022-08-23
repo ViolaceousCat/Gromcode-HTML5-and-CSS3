@@ -80,18 +80,6 @@
 
         .inbox_user-info {
           margin-left: 11px;
-
-          .inbox_opinion_initials {
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 22px;
-          }
-
-          .inbox_opinion_post {
-            font-size: 16px;
-            line-height: 22px;
-            opacity: 0.6;
-          }
         }
       }
 
@@ -114,4 +102,16 @@
   @include for-small-screen {
     display: none;
   }
+}
+
+.inbox_opinion_initials {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.inbox_opinion_post {
+  font-size: 16px;
+  line-height: 22px;
+  opacity: 0.6;
 }

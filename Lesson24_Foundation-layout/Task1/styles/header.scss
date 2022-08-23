@@ -28,12 +28,6 @@
         flex-direction: column;
         justify-content: center;
 
-        &_name {
-          font-size: 20px;
-          line-height: 25px;
-          font-weight: 700;
-        }
-
         &_description {
           display: none;
 
@@ -128,4 +122,10 @@
     background-color: #f3c6bd;
     padding-top: 39px;
   }
+}
+
+.logo-text_name {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
 }

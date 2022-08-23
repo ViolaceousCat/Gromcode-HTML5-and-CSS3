@@ -510,6 +510,7 @@
 @media screen and (min-width: 1400px) {
   .feedback_main .feedback_autor {
     margin-top: 34px;
+    margin-bottom: 38px;
   }
 }
 .feedback_main_dots {
@@ -811,11 +812,6 @@
   flex-direction: column;
   justify-content: center;
 }
-.header-background .header .logo-text_name {
-  font-size: 20px;
-  line-height: 25px;
-  font-weight: 700;
-}
 .header-background .header .logo-text_description {
   display: none;
 }
@@ -905,6 +901,12 @@
     background-color: #f3c6bd;
     padding-top: 39px;
   }
+}
+
+.logo-text_name {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
 }
 
 .headline {
@@ -1277,7 +1279,9 @@
 
 @media screen and (max-width: 1399px) {
   .inbox_user_image-mobile {
-    margin-bottom: 18px;
+    min-width: 40px;
+    min-height: 40px;
+    margin-bottom: auto;
   }
 }
 .inbox {
@@ -1348,16 +1352,6 @@
 .inbox_column_opinion .inbox_opinion_user .inbox_user-info {
   margin-left: 11px;
 }
-.inbox_column_opinion .inbox_opinion_user .inbox_user-info .inbox_opinion_initials {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 22px;
-}
-.inbox_column_opinion .inbox_opinion_user .inbox_user-info .inbox_opinion_post {
-  font-size: 16px;
-  line-height: 22px;
-  opacity: 0.6;
-}
 .inbox_column_opinion .inbox_opinion_line {
   height: 4px;
   margin: 0;
@@ -1369,6 +1363,18 @@
   .inbox {
     display: none;
   }
+}
+
+.inbox_opinion_initials {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.inbox_opinion_post {
+  font-size: 16px;
+  line-height: 22px;
+  opacity: 0.6;
 }
 
 .tips {
