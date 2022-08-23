@@ -2,111 +2,111 @@
   display: flex;
   flex-direction: column;
   background-color: #fcf0e366;
-}
 
-.inbox-mobile_poster {
-  display: flex;
-  justify-content: center;
-  margin: 50px 15px 0 15px;
-}
+  &_poster {
+    display: flex;
+    justify-content: center;
+    margin: 50px 15px 0 15px;
 
-.inbox-mobile_poster_image {
-  max-width: 100%;
-}
+    &_image {
+      max-width: 100%;
+    }
+  }
 
-.inbox-mobile_block {
-  margin: 32px 15px 48px 15px;
-}
+  &_block {
+    margin: 32px 15px 48px 15px;
 
-.inbox_subtitle-mobile {
-  margin: 0;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 34px;
-  color: #f1592b;
-}
+    .inbox_subtitle-mobile {
+      margin: 0;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 34px;
+      color: #f1592b;
+    }
 
-.inbox_title-mobile {
-  margin: 0;
-  margin-top: 17px;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 40px;
-  letter-spacing: -0.357143px;
-}
+    .inbox_title-mobile {
+      margin: 0;
+      margin-top: 17px;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 40px;
+      letter-spacing: -0.357143px;
+    }
 
-.inbox_description-mobile {
-  margin: 0;
-  margin-top: 18px;
-  font-size: 24px;
-  line-height: 34px;
-}
+    .inbox_description-mobile {
+      margin: 0;
+      margin-top: 18px;
+      font-size: 24px;
+      line-height: 34px;
+    }
 
-.inbox_column_opinion-mobile {
-  margin-top: 30px;
-  padding-top: 30px;
-  background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.05) 0%,
-      rgba(255, 255, 255, 1e-5) 100%
-    ),
-    #ffffff;
-  background-blend-mode: overlay, normal;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-}
+    .inbox_column_opinion-mobile {
+      margin-top: 30px;
+      padding-top: 30px;
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.05) 0%,
+          rgba(255, 255, 255, 1e-5) 100%
+        ),
+        #ffffff;
+      background-blend-mode: overlay, normal;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1),
+        0px 4px 6px rgba(0, 0, 0, 0.05),
+        inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 
-.inbox_quotation-mobile {
-  margin: 0;
-  margin: 0 20px;
-  font-size: 20px;
-  line-height: 28px;
-}
+      .inbox_quotation-mobile {
+        margin: 0;
+        margin: 0 20px;
+        font-size: 20px;
+        line-height: 28px;
+      }
 
-.inbox_opinion_user-mobile {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  margin: 26px 20px 28px 20px;
-}
+      .inbox_opinion_user-mobile {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        margin: 26px 20px 28px 20px;
 
-.inbox_user-info-mobile {
-  margin-left: 11px;
-}
+        .inbox_user-info-mobile {
+          margin-left: 11px;
 
-.inbox_opinion_initials-mobile {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 22px;
-}
+          .inbox_opinion_initials-mobile {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+          }
 
-.inbox_opinion_post-mobile {
-  font-size: 16px;
-  line-height: 22px;
-  opacity: 0.6;
-}
+          .inbox_opinion_post-mobile {
+            font-size: 16px;
+            line-height: 22px;
+            opacity: 0.6;
+          }
+        }
+      }
 
-.inbox_opinion_line {
-  height: 4px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.05) 0%,
-      rgba(255, 255, 255, 1e-5) 100%
-    ),
-    #0185d0;
-  background-blend-mode: overlay, normal;
-}
+      .inbox_opinion_line {
+        height: 4px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.05) 0%,
+            rgba(255, 255, 255, 1e-5) 100%
+          ),
+          #0185d0;
+        background-blend-mode: overlay, normal;
+      }
+    }
+  }
 
-@media screen and (max-width: 320px) {
-  .inbox_user_image-mobile {
-    margin-bottom: 18px;
+  @include for-large-screen {
+    display: none;
   }
 }
-@media screen and (min-width: 1400px) {
-  .inbox-mobile {
-    display: none;
+
+@include for-small-screen {
+  .inbox_user_image-mobile {
+    margin-bottom: 18px;
   }
 }

@@ -4,112 +4,114 @@
   height: 790px;
   background-color: #fcf0e366;
   position: relative;
-}
 
-.inbox_column_main {
-  width: 462px;
-  margin-left: 192px;
-}
+  &_poster {
+    margin-left: 193px;
+    margin-top: 142px;
+    margin-bottom: 101px;
+    text-align: center;
 
-.inbox_subtitle {
-  margin-top: 115px;
-  margin-bottom: 0;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 34px;
-  color: #f1592b;
-}
+    .inbox_poster_description {
+      margin-top: 15px;
+      font-size: 14px;
+      line-height: 22px;
+      opacity: 0.6;
+    }
+  }
 
-.inbox_title {
-  margin-top: 24px;
-  margin-bottom: 0;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 56px;
-  letter-spacing: -0.5px;
-}
+  &_column {
+    &_main {
+      width: 462px;
+      margin-left: 192px;
 
-.inbox_description {
-  margin-top: 30px;
-  margin-bottom: 0;
-  font-size: 24px;
-  line-height: 34px;
-}
+      .inbox_subtitle {
+        margin-top: 115px;
+        margin-bottom: 0;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 34px;
+        color: #f1592b;
+      }
 
-.inbox_column_opinion {
-  width: 519px;
-  margin-top: 44px;
-  margin-left: 164px;
-  padding-top: 30px;
-  background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.05) 0%,
-      rgba(255, 255, 255, 1e-5) 100%
-    ),
-    #ffffff;
-  background-blend-mode: overlay, normal;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-}
-.inbox_opinion_line {
-  height: 4px;
+      .inbox_title {
+        margin-top: 24px;
+        margin-bottom: 0;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+      }
 
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.05) 0%,
-      rgba(255, 255, 255, 1e-5) 100%
-    ),
-    #0185d0;
-  background-blend-mode: overlay, normal;
-}
+      .inbox_description {
+        margin-top: 30px;
+        margin-bottom: 0;
+        font-size: 24px;
+        line-height: 34px;
+      }
+    }
 
-.inbox_quotation {
-  font-size: 20px;
-  line-height: 28px;
-  margin: 0 30px 26px 30px;
-}
+    &_opinion {
+      width: 519px;
+      margin-top: 44px;
+      margin-left: 164px;
+      padding-top: 30px;
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.05) 0%,
+          rgba(255, 255, 255, 1e-5) 100%
+        ),
+        #ffffff;
+      background-blend-mode: overlay, normal;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1),
+        0px 4px 6px rgba(0, 0, 0, 0.05),
+        inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 
-.inbox_opinion_user {
-  display: flex;
-  align-items: center;
-  margin-left: 29px;
-  margin-bottom: 26px;
-}
+      .inbox_quotation {
+        font-size: 20px;
+        line-height: 28px;
+        margin: 0 30px 26px 30px;
+      }
 
-.inbox_user-info {
-  margin-left: 11px;
-}
+      .inbox_opinion_user {
+        display: flex;
+        align-items: center;
+        margin-left: 29px;
+        margin-bottom: 26px;
 
-.inbox_opinion_initials {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 22px;
-}
+        .inbox_user-info {
+          margin-left: 11px;
 
-.inbox_opinion_post {
-  font-size: 16px;
-  line-height: 22px;
-  opacity: 0.6;
-}
+          .inbox_opinion_initials {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+          }
 
-.inbox_poster {
-  margin-left: 193px;
-  margin-top: 142px;
-  margin-bottom: 101px;
-  text-align: center;
-}
+          .inbox_opinion_post {
+            font-size: 16px;
+            line-height: 22px;
+            opacity: 0.6;
+          }
+        }
+      }
 
-.inbox_poster_description {
-  margin-top: 15px;
-  font-size: 14px;
-  line-height: 22px;
-  opacity: 0.6;
-}
+      .inbox_opinion_line {
+        height: 4px;
 
-@media screen and (max-width: 1399px) {
-  .inbox {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.05) 0%,
+            rgba(255, 255, 255, 1e-5) 100%
+          ),
+          #0185d0;
+        background-blend-mode: overlay, normal;
+      }
+    }
+  }
+
+  @include for-small-screen {
     display: none;
   }
 }

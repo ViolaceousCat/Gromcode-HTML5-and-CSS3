@@ -6,14 +6,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
 
-.customers_logo {
-  filter: brightness(0);
-}
+  &_logo {
+    filter: brightness(0);
+  }
 
-@media screen and (max-width: 1399px) {
-  .customers2 {
+  @include for-small-screen {
     display: none;
   }
 }
