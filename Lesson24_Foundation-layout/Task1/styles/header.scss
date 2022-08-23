@@ -11,10 +11,8 @@
 
     .logo {
       display: flex;
-
+      align-items: center;
       &_image {
-        width: 48px;
-        height: 48px;
         margin-right: 15px;
 
         @include for-large-screen {
@@ -99,7 +97,7 @@
       &_icon {
         width: 18px;
         height: 13px;
-        background-image: url(images/header-menu-button-icon.png);
+        background-image: url(images/header-menu-button-icon.svg);
         display: inline-block;
       }
 

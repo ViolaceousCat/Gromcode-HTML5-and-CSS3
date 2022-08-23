@@ -47,6 +47,7 @@
         0px 4px 6px rgba(0, 0, 0, 0.05),
         inset 0px 1px 0px rgba(255, 255, 255, 0.1);
       margin-bottom: 110px;
+      cursor: pointer;
 
       @include for-small-screen {
         width: 100%;
@@ -58,6 +59,7 @@
   &_vacancy {
     display: flex;
     flex-direction: column;
+    text-decoration: none;
 
     &_block {
       display: flex;
@@ -78,6 +80,7 @@
         flex-wrap: wrap;
         width: 200px;
         margin: 19px 21px 19px 20px;
+        color: #2b292d;
 
         .hiring_vacancy_block_name {
           font-weight: 700;
@@ -170,6 +173,10 @@
 @include for-large-screen {
   .hiring_vacancy_block:hover {
     background-color: #3141c5;
+    color: #fff;
+  }
+
+  .hiring_vacancy_block:hover .hiring_vacancy_block_name {
     color: #fff;
   }
 
