@@ -1535,6 +1535,7 @@
   text-align: center;
   font-size: 18px;
   line-height: 13px;
+  width: 385px;
 }
 @media screen and (max-width: 1399px) {
   .order_details_form_email {
@@ -1544,6 +1545,8 @@
 @media screen and (min-width: 1400px) {
   .order_details_form_email {
     margin-top: 0;
+    text-align: left;
+    padding-left: 15px;
   }
 }
 .order_details_form_email::-webkit-input-placeholder {
@@ -1588,13 +1591,16 @@
 }
 .order_details_form_button {
   margin-top: 12px;
-  width: 100%;
+}
+@media screen and (max-width: 1399px) {
+  .order_details_form_button {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 1400px) {
   .order_details_form_button {
     margin-top: 0;
     margin-left: 10px;
-    width: 160px;
   }
 }
 .order_details_terms {
